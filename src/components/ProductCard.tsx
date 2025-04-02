@@ -1,0 +1,45 @@
+
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Product } from '../data/products';
+import { useCart } from '../contexts/CartContext';
+import { ShoppingBasket } from 'lucide-react';
+
+interface ProductCardProps {
+  product: Product;
+}
+
+const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+  const { addToCart } = useCart();
+
+  return (
+    <Card className="overflow-hidden transition-all duration-300 hover:shadow-md">
+      <div className="aspect-square overflow-hidden">
+        <img
+          src={product.image || '/placeholder.svg'}
+          alt={`${product.name} ${product.size}`}
+          className="h-full w-full object-cover transition-all hover:scale-105"
+        />
+      </div>
+      <CardHeader className="p-4">
+        <CardTitle className="text-lg">{product.name}</CardTitle>
+        <CardDescription>{product.size}</CardDescription>
+      </CardHeader>
+      <CardContent className="p-4 pt-0">
+        <p className="text-sm text-muted-foreground">{product.description}</p>
+      </CardContent>
+      <CardFooter className="p-4 flex items-center justify-between">
+        <p className="text-lg font-bold">£{product.price.toFixed(2)}</p>
+        <Button 
+          onClick={() => addToCart(product)} 
+          className="bg-chocolate hover:bg-chocolate-light text-white"
+        >
+          <ShoppingBasket className="h-4 w-4 mr-2" />
+          Add to Cart
+        </Button>
+      </CardFooter>
+    </Card>
+  );
+};
+
+export default ProductCard;
