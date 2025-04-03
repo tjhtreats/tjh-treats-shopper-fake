@@ -12,23 +12,23 @@ const ImageGallery = () => {
   const images = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
-      alt: "Luxury chocolate truffles arrangement",
+      src: "https://images.unsplash.com/photo-1511381939415-e44015466834",
+      alt: "Luxury chocolate bars arrangement",
     },
     {
       id: 2, 
-      src: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
-      alt: "Chocolate making process",
+      src: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52",
+      alt: "Artisan chocolate making process",
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb", 
+      src: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32", 
       alt: "Gift box of assorted chocolates",
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151",
-      alt: "Chocolate dessert plating",
+      src: "https://images.unsplash.com/photo-1621303837174-89787a7d4729",
+      alt: "Chocolate cake with ganache",
     },
   ];
 

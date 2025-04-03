@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Dubai Chocolate Bar",
     size: "Small",
     price: 6.49,
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901",
+    image: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52",
     description: "Our signature Dubai Chocolate Bar made with premium cocoa and a hint of exotic spices.",
     category: "bars"
   },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "Dubai Chocolate Bar",
     size: "Medium",
     price: 9.99,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
+    image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b",
     description: "Our signature Dubai Chocolate Bar made with premium cocoa and a hint of exotic spices.",
     category: "bars"
   },
@@ -33,7 +33,7 @@ export const products: Product[] = [
     name: "Dubai Chocolate Bar",
     size: "Family",
     price: 14.49,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "https://images.unsplash.com/photo-1511381939415-e44015466834",
     description: "Our signature Dubai Chocolate Bar made with premium cocoa and a hint of exotic spices.",
     category: "bars"
   },
@@ -42,7 +42,7 @@ export const products: Product[] = [
     name: "Chocolate Sponge",
     size: "Small",
     price: 12.49,
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
     description: "Rich and moist chocolate sponge cake with a decadent chocolate ganache.",
     category: "cakes"
   },
@@ -51,7 +51,7 @@ export const products: Product[] = [
     name: "Chocolate Sponge",
     size: "Medium",
     price: 14.99,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
+    image: "https://images.unsplash.com/photo-1605807646983-377bc5a76493",
     description: "Rich and moist chocolate sponge cake with a decadent chocolate ganache.",
     category: "cakes"
   },
@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Chocolate Sponge",
     size: "Family",
     price: 24.99,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729",
     description: "Rich and moist chocolate sponge cake with a decadent chocolate ganache.",
     category: "cakes"
   },
@@ -69,7 +69,7 @@ export const products: Product[] = [
     name: "Chocolate Balls",
     size: "Small (Pack of 12)",
     price: 7.99,
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
+    image: "https://images.unsplash.com/photo-1548907040-4d42bfc4dea0",
     description: "Delectable chocolate truffles coated in cocoa powder, perfect for sharing.",
     category: "truffles"
   },
@@ -78,7 +78,7 @@ export const products: Product[] = [
     name: "Chocolate Balls",
     size: "Medium (Pack of 24)",
     price: 11.49,
-    image: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151",
+    image: "https://images.unsplash.com/photo-1526081347589-7fa3cb41966b",
     description: "Delectable chocolate truffles coated in cocoa powder, perfect for sharing.",
     category: "truffles"
   },
@@ -87,7 +87,7 @@ export const products: Product[] = [
     name: "Chocolate Balls",
     size: "Large (Pack of 48)",
     price: 19.99,
-    image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
+    image: "https://images.unsplash.com/photo-1481391319762-47dff72954d9",
     description: "Delectable chocolate truffles coated in cocoa powder, perfect for sharing.",
     category: "truffles"
   }
