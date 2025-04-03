@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <Card className="overflow-hidden transition-all duration-300 hover:shadow-md">
       <AspectRatio ratio={1} className="bg-muted">
         <img
-          src={product.image || '/placeholder.svg'}
+          src={product.image || 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843'}
           alt={`${product.name} ${product.size}`}
           className="h-full w-full object-cover transition-all hover:scale-105 duration-300"
         />

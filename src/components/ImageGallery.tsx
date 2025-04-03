@@ -12,22 +12,22 @@ const ImageGallery = () => {
   const images = [
     {
       id: 1,
-      src: "/chocolate-gallery-1.jpg",
+      src: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
       alt: "Luxury chocolate truffles arrangement",
     },
     {
       id: 2, 
-      src: "/chocolate-gallery-2.jpg",
+      src: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
       alt: "Chocolate making process",
     },
     {
       id: 3,
-      src: "/chocolate-gallery-3.jpg", 
+      src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb", 
       alt: "Gift box of assorted chocolates",
     },
     {
       id: 4,
-      src: "/chocolate-gallery-4.jpg",
+      src: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151",
       alt: "Chocolate dessert plating",
     },
   ];
