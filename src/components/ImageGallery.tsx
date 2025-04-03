@@ -30,6 +30,16 @@ const ImageGallery = () => {
       src: "https://images.unsplash.com/photo-1621303837174-89787a7d4729",
       alt: "Chocolate cake with ganache",
     },
+    {
+      id: 5,
+      src: "https://images.unsplash.com/photo-1526081347589-7fa3cb41966b",
+      alt: "Gourmet chocolate truffles",
+    },
+    {
+      id: 6,
+      src: "https://images.unsplash.com/photo-1548907040-4d42bfc4dea0",
+      alt: "Premium chocolate assortment",
+    },
   ];
 
   return (
