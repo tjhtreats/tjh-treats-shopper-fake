@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Product } from '../data/products';
 import { useCart } from '../contexts/CartContext';
 import { ShoppingBasket } from 'lucide-react';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 interface ProductCardProps {
   product: Product;
@@ -14,13 +15,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
   return (
     <Card className="overflow-hidden transition-all duration-300 hover:shadow-md">
-      <div className="aspect-square overflow-hidden">
+      <AspectRatio ratio={1} className="bg-muted">
         <img
           src={product.image || '/placeholder.svg'}
           alt={`${product.name} ${product.size}`}
-          className="h-full w-full object-cover transition-all hover:scale-105"
+          className="h-full w-full object-cover transition-all hover:scale-105 duration-300"
         />
-      </div>
+      </AspectRatio>
       <CardHeader className="p-4">
         <CardTitle className="text-lg">{product.name}</CardTitle>
         <CardDescription>{product.size}</CardDescription>
